@@ -11,9 +11,7 @@
 .text-primary{
     color: #4E47FF;
 }
-.dark-2{
-    color: #252432;
-}
+
 
 .btn-primary{
     background-color: #4E47FF;
@@ -24,6 +22,42 @@
     padding: 12px 36px;
     border-radius: 5px;
 }
+.btn-secondary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 5px;
+    margin-bottom: 152px;
+}
+.section-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.section-title1{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-top: 50px;
+}
+.section-title2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+
+.text-center{
+    text-align: center;
+}
+.section-description{
+    font-size: 24px;
+    color: grey;
+}
+
 .header{
     background-image: url('../images/Hero-bg.png');
 }
@@ -37,8 +71,22 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+    display: flex;
 }
-
+.nav-title1{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    padding: 70px;
+    justify-content: space-between;
+    display: flex;
+}
+.sb{
+    font-size: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    color: #030000;
+}
 
 nav ul li{
     list-style: none;
@@ -48,17 +96,89 @@ nav li a{
     text-decoration: none;
     font-size: 20px;
 }
-.banner{
-    justify-content: center;
-}
 
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 20px;
+}
+.banner1{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 350px 3027.5px 350px;
+    max-width: 1200px;
+}
+.joined{
+    border-radius: 30px;
+    padding: 130px 450px;
+    margin-top: 230px;
+    max-width: 1000px;
+    text-align: center;
+}
 
 .banner-content{
     max-width: 800px;
     margin: 150px 550px;
     text-align: center;
 }
+.banner-content1{
+    max-width: 580px;
+}
 .banner-title{
     font-weight: bold;
     font-size: 65px;
+    text-align: center;
+}
+.banner-title1{
+    font-weight: bold;
+    font-size: 42px;
+}
+.banner-title2{
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+}
+.banner-profile-pic{
+    width: 403px;
+    height: 328px;
+    margin: 0px 0px 0px 600px;
+}
+.banner-description{
+    font-size: 24px;
+    font-display: #B3B3B3;
+    font-style: normal;
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.bg-color{
+    background-color: #b6b4ec;
+    position: absolute;
+}
+
+.user-container{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 3000px;
+    padding-bottom: 2000px;
+}
+.form{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.section-title3{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-top: 50px;
+    display: flex;
+}
+footer{
+    padding: 30px 2400px;
+    display: flex;
+    text-align: center;
 }
